@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 /**Images import */
 import "./navbar.css";
 
-/* Creates the <Menu /> shortcut */
+/* Edit here for nav link changes */
 const Menu = () => (
   <>
     <p>
@@ -13,13 +13,10 @@ const Menu = () => (
       <a href="#services">Services</a>
     </p>
     <p>
-      <a href="#resources">Resources</a>
+      <a href="#aboutus">About Us</a>
     </p>
     <p>
-      <a href="#whyus">About Us</a>
-    </p>
-    <p>
-      <a href="#contact">Contact</a>
+      <a href="#support">Support</a>
     </p>
   </>
 );
@@ -30,36 +27,36 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="kat__navbar">
-      <div className="kat__navbar-links">
-        <div className="kat__navbar-links_logo">
-          <div className="kat__navbar-links_logo_big">
+    <div className="webdefend__navbar">
+      <div className="webdefend__navbar-links">
+        <div className="webdefend__navbar-links_logo">
+          <div className="webdefend__navbar-links_logo_big">
             {/* <img src={images.logoPdf} alt="logo" /> */}
           </div>
-          <div className="kat__navbar-links_logo_mobile">
+          <div className="webdefend__navbar-links_logo_mobile">
             {/* <img src={images.logoSmall} alt="logo" /> */}
           </div>
         </div>
-        <div className="kat__navbar-links_container">
+        <div className="webdefend__navbar-links_container">
           <Menu />
         </div>
       </div>
-      <div className="kat__navbar-sign">
-        <p>(08) 64603830</p>
+      <div className="webdefend__navbar-sign">
+        <p>Consult</p>
       </div>
-      <div className="kat__navbar-menu">
+      <div className="webdefend__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine size={27} onClick={() => setToggleMenu(false)}/>
         ) : (
           <RiMenu3Line size={27} onClick={() => setToggleMenu(true)}/>
         )}
         {toggleMenu && (
-          <div className="kat__navbar-menu_container scale-up-center">
-            <div className="kat__navbar-menu_container-links">
+          <div className="webdefend__navbar-menu_container scale-up-center">
+            <div className="webdefend__navbar-menu_container-links">
               <Menu />
             </div>
-            <div className="kat__navbar-menu_container-links-sign">
-              <p>(08) 64603830</p>
+            <div className="webdefend__navbar-menu_container-links-sign">
+              <p>Consult</p>
             </div>
           </div>
         )}

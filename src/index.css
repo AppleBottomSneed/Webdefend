@@ -1,10 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@font-face {
+  font-family: 'Clear Sans';
+  src: url(/src/components/assets/fonts/ClearSans-Regular.ttf) format('truetype');
+}
 
 
 
 :root {
-  --font-main: 'Arial', sans-serif;
-  --font-secondary: 'Sen', sans-serif;
+  --font-main: 'Clear Sans', sans-serif;
+  --font-secondary: 'Archivo Black', sans-serif;
   --font-tertiary: 'Nunito', sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
@@ -17,5 +21,6 @@
   --color-subtext: #ff8a71;
   --color-bluetext: #2E3192;
   --color-redtext: #ED1C24;
+  --color-orangetext: #F07821;
 
 }
