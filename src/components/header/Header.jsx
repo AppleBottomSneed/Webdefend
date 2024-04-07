@@ -4,23 +4,19 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="kat__header section__padding" id="home">
-      <div className="kat__header-content">
+    <div className="webdefend__header section__padding" id="home">
+      <div className="webdefend__header-content">
         <h1>
-          <span className="kat__text-blue">Tax</span>
-          <span className="kat__text-black"> done</span>
-          <span className="kat__text-red"> right</span>
-          <span className="kat__text-black">.</span>
+          <span className="webdefend__text-black">Unparallelled</span>
+          <span className="webdefend__text-white"> right</span>
         </h1>
         <p>
-        Here at KAT Accounting Services we ensure our clients can sleep easy knowing their business is financially safe and sound.</p>
-        <p>We combine our accounting and bookkeeping in a neat and affordable package hassle-free. </p>
-        <p>Call us for a free consultation and we’ll get you sorted.</p>
-        <div className="kat__header-content__input">
-          <button type="button">Contact Us</button>
+        We are dedicated to staying ahead of emerging threats and keeping your information secure. Your privacy is paramount, and we strive to maintain top-notch security measures to earn and keep your trust.</p>
+        <div className="webdefend__header-content__input">
+          <button type="button">Consult</button>
         </div>
       </div>
-      <div className="kat__header-image">
+      <div className="webdefend__header-image">
         
       </div>
     </div>
