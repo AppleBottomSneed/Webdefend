@@ -1,15 +1,15 @@
 .webdefend__navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 3rem 10rem;
+  padding: 0rem 5rem;
 }
 
 .webdefend__navbar-links {
-  flex: 1;
   display: flex;
   justify-content:space-between;
   align-items: center;
+  
 }
 
 .webdefend__navbar-links_logo {
@@ -17,8 +17,8 @@
 }
 
 .webdefend__navbar-links_logo img {
-  width: 386px;
-  height: 65px;
+  width: 210px;
+  height: 175px;
 }
 
 .webdefend__navbar-links_logo_mobile {

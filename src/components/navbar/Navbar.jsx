@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-/**Images import */
+import { images } from "../../constants";
 import "./navbar.css";
 
 /* Edit here for nav link changes */
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="webdefend__navbar-links">
         <div className="webdefend__navbar-links_logo">
           <div className="webdefend__navbar-links_logo_big">
-            {/* <img src={images.logoPdf} alt="logo" /> */}
+            <img src={images.logo} alt="logo" />
           </div>
           <div className="webdefend__navbar-links_logo_mobile">
             {/* <img src={images.logoSmall} alt="logo" /> */}
