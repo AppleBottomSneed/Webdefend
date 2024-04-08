@@ -1,8 +1,9 @@
 .webdefend__header {
   display: flex;
   background-image: url(../assets/headerbox.png);
-  width: 100%;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 489px;
 }
 
 .webdefend__header-content {
@@ -12,12 +13,13 @@
   align-items: flex-start;
   flex-direction: column;
   margin-right: 5rem;
+  margin-top: 75px;
 }
 
 .webdefend__header-content span {
   font-family: var(--font-secondary);
   font-weight: 800;
-  font-size: 62px;
+  font-size: 48px;
   letter-spacing: -0.04em;
 }
 
@@ -30,7 +32,7 @@
 }
 
 .webdefend__text-black {
-  color: var(--color-text);
+  color: var(--color-lightgrey);
 }
 
 .webdefend__header-content p {
@@ -38,8 +40,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
-  color: var(--color-text);
+  color: var(--color-bg);
   margin-top: 1.5rem;
+  margin-right: 30%;
 }
 
 .webdefend__header-content__input {
@@ -59,27 +62,28 @@
   font-size: 20px;
   font-weight: 20px;
   line-height: 27px;
-  color: #3d6184;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 .webdefend__header-content__input button {
   flex: 0.6;
   width: 100%;
   min-height: 50px;
-  background: var(--color-bg);
-  font-family: var(--font-secondary);
-  color: var(--color-text);
-  font-style: normal;
+  
+  font-family: var(--font-main);
   font-weight: bold;
+  color: var(--color-orangetext);
   font-size: 20px;
   line-height: 27px;
   cursor: pointer;
   outline: none;
   padding: 0 1rem;
   border: none;
- border-radius: 50px;
+  padding-bottom: 10px;
+
+  background-image: url(../assets/contact.png);
+  background-size: cover;
+  background-color: transparent;
+  background-position: center;
 }
 
 .webdefend__header-content__people {

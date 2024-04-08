@@ -5,6 +5,11 @@
   padding: 0rem 5rem;
 }
 
+.webdefend__navbar a:hover {
+  color: var(--color-orangetext);
+
+}
+
 .webdefend__navbar-links {
   display: flex;
   justify-content:space-between;
@@ -17,8 +22,9 @@
 }
 
 .webdefend__navbar-links_logo img {
-  width: 210px;
+  width: 100%;
   height: 175px;
+  
 }
 
 .webdefend__navbar-links_logo_mobile {
@@ -34,6 +40,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
+  
 }
 
 .webdefend__navbar-links_container p,
@@ -45,26 +53,31 @@
   font-size: 24px;
   line-height: 25px;
   text-transform: capitalize;
-  margin: 0 1rem;
+  margin: 0 2rem;
   cursor: pointer;
 }
 
 .webdefend__navbar-sign button,
 .webdefend__navbar-menu_container button {
-  padding: 0.5rem 0.5rem;
-  /*width: 152px;
-  height: 58px;*/
-  border: 0;
-  border-radius: 5px;
-  background: #ff4820;
+  height: 130px;
+  width: 150px;
+  border: none;
   outline: none;
   cursor: pointer;
 
-  color: #fff;
-  font-family: var(--font-secondary);
-  font-weight: 500;
-  font-size: 18px;
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-weight: bold;
+  font-size: 24px;
   line-height: 25px;
+
+  background-image: url(../assets/contact.png);
+  background-size: contain;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+ 
 }
 
 .webdefend__navbar-menu {

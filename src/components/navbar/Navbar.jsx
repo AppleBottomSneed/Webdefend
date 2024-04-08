@@ -42,8 +42,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="webdefend__navbar-sign">
-        <p>Consult</p>
+        <button>
+          <a href="#contact">Consult</a>
+        </button>
       </div>
+      {/* Mobile Menu below*/}
       <div className="webdefend__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine size={27} onClick={() => setToggleMenu(false)}/>
@@ -56,7 +59,9 @@ const Navbar = () => {
               <Menu />
             </div>
             <div className="webdefend__navbar-menu_container-links-sign">
-              <p>Consult</p>
+              <button>
+                <a href="#contact" >Consult</a>
+              </button>
             </div>
           </div>
         )}
