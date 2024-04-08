@@ -1,0 +1,183 @@
+.webdefend__services-background {
+    
+}
+
+.webdefend-container {
+    border: 1px black;
+    border-radius: 30px;
+    background-color: #ffff;
+}
+
+.webdefend-container-padding {
+   padding:  2rem 3rem;
+}
+
+.webdefend-title p {
+    font-size: 75px;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.webdefend-infocard-flex {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+}
+
+.webdefend-infocard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 20px 20px 75px;
+    width: calc(100% - 20px);
+}
+
+.webdefend-infocard-feature {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.webdefend-infocard-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+.webdefend-infocard-title p {
+    font-size: 24px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-bluetext);
+    padding: 0 25px 0 90px;
+   
+}
+
+.webdefend-infocard-description p {
+    font-size: 15px;
+    font-family: var(--font-main);
+    padding-top: 10px;
+}
+
+.webdefend-infocard-button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+}
+
+.webdefend-infocard-button button {
+  min-width: 50px;
+  min-height: 38px;
+  background: var(--color-bluetext);
+  font-family: var(--font-tertiary);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 50px;
+}
+
+.webdefend-infocard-viewall {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.webdefend-infocard-viewall button {
+    min-height: 50px;
+    color: #ffffff;
+    background: var(--color-redtext);
+    font-family: var(--font-tertiary);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1130px ) {
+    .webdefend-infocard-title p {
+        font-size: 24px;
+    }
+
+    .webdefend-infocard-feature img { 
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 990px ) {
+    .webdefend-infocard-flex {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        row-gap: 13px;
+    }
+
+    .webdefend-title p  {
+        font-size: 50px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+ 
+}
+
+@media screen and (max-width: 650px ) {
+
+    .webdefend-infocard-feature {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .webdefend-infocard-feature img { 
+        width: 70px;
+        height: 70px;
+    }
+
+    .webdefend-infocard-feature p  {
+        font-size: 19px;
+        padding: 0 25px 0 25px;
+    }
+
+    .webdefend-infocard-description p {
+        font-size: 13px;
+    }
+
+    .webdefend-infocard-button button {
+        min-width: 18px;
+        min-height: 18px;
+        font-size: 10px; 
+    }
+
+    .webdefend-title p  {
+        font-size: 25px;
+    }
+
+    .webdefend-infocard-viewall button {
+        font-size: 11px;
+        
+    }
+
+    .webdefend-container-padding {
+        padding: 1rem 1.5rem 3rem;
+    }
+}
+

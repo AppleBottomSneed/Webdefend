@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navbar, Header } from "./components";
+import { Navbar, Header, Services } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -9,8 +9,9 @@ const App = () => {
       <div className='gradient__bg'>
         <Navbar />
         <Header />
+        
       </div>
-      
+      <Services />
     </div>
   )
 }
