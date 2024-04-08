@@ -42,7 +42,7 @@
   line-height: 27px;
   color: var(--color-bg);
   margin-top: 1.5rem;
-  margin-right: 30%;
+  margin-right: 50%;
 }
 
 .webdefend__header-content__input {
@@ -122,8 +122,13 @@
   height: 100%;
 }
 
+@media screen and (max-width: 1360px) {
+  .webdefend__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
 
-
+}
 
 @media screen and (max-width: 1050px) {
   .webdefend__header {
@@ -134,9 +139,9 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  .webdefend__header h1 {
-    font-size: 48px;
+@media screen and (max-width: 700px) {
+  .webdefend__header-content span {
+    font-size: 40px;
     line-height: 60px;
   }
   .webdefend__header p {
@@ -159,6 +164,12 @@
 }
 
 @media screen and (max-width: 490px) {
+  .webdefend__header {
+    min-height: 600px;
+    background-size: auto;
+    
+  }
+
   .webdefend__header h1 {
     font-size: 36px;
     line-height: 48px;
@@ -169,12 +180,11 @@
   }
   .webdefend__header-content__input input,
   .webdefend__header-content__input button {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 16px;
+    width: 75%;
+  align-items: center;
     
   }
 
-  .webdefend__header-content__input {
-    width: 150px;
-  }
 }

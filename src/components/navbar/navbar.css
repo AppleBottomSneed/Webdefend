@@ -117,10 +117,6 @@
 }
 
 @media screen and (max-width: 1383px) {
-  .webdefend__navbar-links_logo img {
-    width: 340px;
-  }
-  
   .webdefend__navbar {
     padding-right: 2rem;
   }
@@ -133,7 +129,15 @@
 
   .webdefend__navbar-links_logo_mobile {
     display: flex;
-    width: 150px;
+  }
+
+  .webdefend__navbar-links_logo_mobile img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .webdefend__navbar {
+    padding: 1rem 1rem;
   }
 }
 
@@ -147,13 +151,13 @@
   }
   
   .webdefend__navbar {
-    padding: 2rem 4rem;
+    padding: 0.5rem 1rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   .webdefend__navbar {
-    padding: 2rem;
+    padding: 0.5rem;
   }
 
   .webdefend__navbar-sign {

@@ -31,10 +31,10 @@ const Navbar = () => {
       <div className="webdefend__navbar-links">
         <div className="webdefend__navbar-links_logo">
           <div className="webdefend__navbar-links_logo_big">
-            <img src={images.logo} alt="logo" />
+            <img src={images.logo} alt="webdefend logo" />
           </div>
           <div className="webdefend__navbar-links_logo_mobile">
-            {/* <img src={images.logoSmall} alt="logo" /> */}
+            <img src={images.logoSmall} alt="webdefend logo small" /> 
           </div>
         </div>
         <div className="webdefend__navbar-links_container">
