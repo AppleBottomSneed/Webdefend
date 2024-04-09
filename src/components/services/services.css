@@ -181,3 +181,40 @@
     }
 }
 
+.parallax-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-image-target {
+  background-image: url('../assets/parallaxtarget.png'); 
+  width: 100%;
+  height: 100%;
+  background-size: fit;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.parallax-image-border {
+  background-image: url('../assets/parallaxborder.png'); 
+  width: 100%;
+  height: 100%;
+  background-size: fit;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.parallax-image-border {
+  background-image: url('../assets/parallaxaim.png'); 
+  width: 100%;
+  height: 100%;
+  background-size: fit;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
