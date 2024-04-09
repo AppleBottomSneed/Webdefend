@@ -50,32 +50,40 @@
  
 }
 
-.webdefend-container {
+.webdefend__container {
     border: 1px black;
     border-radius: 30px;
     background-color: #000000;
 }
 
-.webdefend-container-padding {
+.webdefend__container-padding {
    padding:  2rem 3rem;
 }
 
-.webdefend-title p {
-    font-size: 75px;
+.webdefend__title {
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/services.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.webdefend__title p {
+    font-size: 50px;
     font-family: var(--font-secondary);
     font-weight: bold;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; 
 }
 
-.webdefend-infocard-flex {
+.webdefend__infocard-flex {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 25px;
 }
 
-.webdefend-infocard {
+.webdefend__infocard {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -87,7 +95,7 @@
     width: calc(100% - 20px);
 }
 
-.webdefend-infocard-feature {
+.webdefend__infocard-feature {
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -95,12 +103,12 @@
     align-items: center;
 }
 
-.webdefend-infocard-icon img {
+.webdefend__infocard-icon img {
     width: 150px;
     height: 150px;
 }
 
-.webdefend-infocard-title p {
+.webdefend__infocard-title p {
     font-size: 24px;
     font-family: var(--font-main);
     font-weight: bold;
@@ -109,13 +117,13 @@
    
 }
 
-.webdefend-infocard-description p {
+.webdefend__infocard-description p {
     font-size: 15px;
     font-family: var(--font-main);
     padding-top: 10px;
 }
 
-.webdefend-infocard-button {
+.webdefend__infocard-button {
     position: absolute;
     bottom: 15px;
     left: 15px;
@@ -124,7 +132,7 @@
     align-self: flex-end;
 }
 
-.webdefend-infocard-button button {
+.webdefend__infocard-button button {
   min-width: 50px;
   min-height: 38px;
   background: var(--color-bluetext);
@@ -141,13 +149,13 @@
   border-radius: 50px;
 }
 
-.webdefend-infocard-viewall {
+.webdefend__infocard-viewall {
     display: flex;
     justify-content: center;
     padding-top: 100px;
 }
 
-.webdefend-infocard-viewall button {
+.webdefend__infocard-viewall button {
     min-height: 50px;
     color: #ffffff;
     background: var(--color-redtext);
@@ -162,25 +170,25 @@
 }
 
 @media screen and (max-width: 1130px ) {
-    .webdefend-infocard-title p {
+    .webdefend__infocard-title p {
         font-size: 24px;
     }
 
-    .webdefend-infocard-feature img { 
+    .webdefend__infocard-feature img { 
         width: 100px;
         height: 100px;
     }
 }
 
 @media screen and (max-width: 990px ) {
-    .webdefend-infocard-flex {
+    .webdefend__infocard-flex {
         display: flex;
         flex-direction: column; 
         justify-content: space-between;
         row-gap: 13px;
     }
 
-    .webdefend-title p  {
+    .webdefend__title p  {
         font-size: 50px;
         padding-top: 25px;
         padding-bottom: 50px;
@@ -190,41 +198,41 @@
 
 @media screen and (max-width: 650px ) {
 
-    .webdefend-infocard-feature {
+    .webdefend__infocard-feature {
         display: flex;
         flex-direction: column;
     }
 
-    .webdefend-infocard-feature img { 
+    .webdefend__infocard-feature img { 
         width: 70px;
         height: 70px;
     }
 
-    .webdefend-infocard-feature p  {
+    .webdefend__infocard-feature p  {
         font-size: 19px;
         padding: 0 25px 0 25px;
     }
 
-    .webdefend-infocard-description p {
+    .webdefend__infocard-description p {
         font-size: 13px;
     }
 
-    .webdefend-infocard-button button {
+    .webdefend__infocard-button button {
         min-width: 18px;
         min-height: 18px;
         font-size: 10px; 
     }
 
-    .webdefend-title p  {
+    .webdefend__title p  {
         font-size: 25px;
     }
 
-    .webdefend-infocard-viewall button {
+    .webdefend__infocard-viewall button {
         font-size: 11px;
         
     }
 
-    .webdefend-container-padding {
+    .webdefend__container-padding {
         padding: 1rem 1.5rem 3rem;
     }
 }

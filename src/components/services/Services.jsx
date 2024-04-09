@@ -25,10 +25,10 @@ function Services() {
         </div>
       </div>
       
-      <div className="webdefend__oreground-elements">
+      <div className="webdefend__foreground-elements">
         <div className="section__padding">
         <div className="webdefend__services-container webdefend__services-container-padding">
-          <div className="webdefend-title"><p>Hello</p></div>
+          <div className="webdefend__title"><p>M365 Security Assessments</p></div>
         </div>
       </div>
       </div>
