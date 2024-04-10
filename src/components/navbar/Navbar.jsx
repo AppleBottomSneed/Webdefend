@@ -21,8 +21,6 @@ const Menu = () => (
   </>
 );
 
-//BEM = block element modifier
-
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 

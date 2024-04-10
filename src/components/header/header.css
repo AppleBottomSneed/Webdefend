@@ -187,4 +187,9 @@
     
   }
 
+  .webdefend__header-content span {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
 }

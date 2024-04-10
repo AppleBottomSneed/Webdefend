@@ -1,0 +1,18 @@
+.aboutus__section-padding {
+    padding: 5rem 4rem;
+}
+
+.webdefend__aboutus-banner {
+display: flex;
+background-image: url(../assets/aboutusbanner.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.webdefend__aboutus-graphic img {
+    width: 100%;
+    min-width: 400px;
+    height: 600px;
+    
+}
