@@ -1,0 +1,51 @@
+.features__padding {
+    padding: 3rem 15rem;
+}
+
+.webdefend__features {
+    padding-top: 4rem;   
+}
+
+.webdefend__features-title p {
+    font-family: var(--font-main);
+    font-size: 48px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.webdefend__features-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+}
+
+.webdefend__features-text-container {
+    flex-direction: column;
+
+}
+
+.webdefend__features-text-title p {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    font-size: 32px;
+}
+
+.webdefend__features-title-description p {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    font-size: 20px;
+
+    padding-top: 3rem;
+    width: 70%;
+}
+
+.webdefend__features-title-description-highlight {
+    color: var(--color-orangetext);
+    font-weight: bold;
+}
+
+.webdefend__features-graphic img {
+    width: 400px;
+}
