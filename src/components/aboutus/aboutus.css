@@ -3,16 +3,133 @@
 }
 
 .webdefend__aboutus-banner {
-display: flex;
-background-image: url(../assets/aboutusbanner.png);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    display: flex;
+    background-image: url(../assets/aboutusbannernogradient.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.webdefend__aboutus-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .webdefend__aboutus-graphic img {
     width: 100%;
-    min-width: 400px;
-    height: 600px;
     
+    height: 600px;
+}
+
+.webdefend__aboutus-container-text {
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.webdefend__aboutus-title {
+    background-image: url(../assets/animatedgraphics1.gif);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.webdefend__aboutus-title p {
+    font-family: var(--font-secondary);
+    color: var(--color-bg);
+    font-size: 40px;
+}
+
+.webdefend__aboutus-description-title p {
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-bg);
+
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.webdefend__aboutus-description-textbox p {
+    font-family: var(--font-main);
+    color: var(--color-bg);
+
+    
+    font-size: 15px;
+    margin-top: 1rem;
+
+    width: 500px;
+}
+
+@media screen and (max-width: 1130px ) {
+    .webdefend__aboutus-banner {
+        justify-content: center;
+        height: 1500px;
+    }
+
+    .webdefend__aboutus-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .webdefend__aboutus-graphic img {   
+        margin-top: 3rem;  
+    }
+
+    .webdefend__aboutus-container-text {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+
+    .webdefend__aboutus-banner {
+        height: 1300px;
+    }
+
+    .webdefend__aboutus-graphic img {   
+        width: 300px;  
+        height: 300px;
+    }
+
+    .webdefend__aboutus-title {
+        width: 250px;
+    }
+
+    .webdefend__aboutus-title p {
+        font-size: 25px;
+    }
+
+    .webdefend__aboutus-description-title p {
+        
+        font-size: 22px;
+        margin-top: 2rem;
+    }
+    
+    .webdefend__aboutus-description-textbox p {
+        font-size: 13px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 400px ) {
+    .webdefend__aboutus-graphic img {   
+        width: 200px;  
+        height: 200px;
+    }
+
+    .webdefend__aboutus-description-textbox p {
+        width: 250px;
+    }
+
+    .webdefend__aboutus-title {
+        width: 200px;
+    }
 }
