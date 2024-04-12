@@ -1,0 +1,100 @@
+.contact__section-padding {
+    padding: 8rem 4rem;
+}
+
+.webdefend__contact-banner {
+    display: flex;
+    background-image: url(../assets/contactbanner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 800px;
+}
+
+.webdefend__contact-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.webdefend__contact-graphic img {
+    width: 150px;
+    height: 150px;
+}
+
+.webdefend__contact-container-text {
+    margin-top: 2rem;
+}
+
+.webdefend__contact-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.webdefend__contact-title p {
+    font-family: var(--font-secondary);
+    color: var(--color-bg);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #3a3a3a;
+}
+
+.webdefend__contact-description-title p {
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-bg);
+
+    
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.webdefend__contact-container-both {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.webdefend__contact-container-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7rem; 
+}
+
+@media screen and (max-width: 1150px ) {
+    .webdefend__contact-description-title p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 900px ) {
+    .contact__section-padding {
+        padding: 4rem 2rem;
+    }
+
+    .webdefend__contact-container-both {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .webdefend__contact-container-details{
+        padding-top: 2rem;
+    }
+
+    .webdefend__contact-description-title p {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 430px ) {
+    .webdefend__contact-title p {
+        font-size: 30px;
+    }
+ 
+}
+
+
