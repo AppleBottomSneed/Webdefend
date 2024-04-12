@@ -49,3 +49,147 @@
 .webdefend__features-graphic img {
     width: 400px;
 }
+
+/*Flex cards CSS below */
+
+.webdefend__features-flexcard {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+
+    padding: 5rem 0;
+}
+
+.webdefend__features-infocard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 20px 20px 75px;
+    width: calc(100% - 20px);
+}
+
+.webdefend__features-container-padding {
+    padding: 1rem 1.5rem 3rem;
+}
+
+.webdefend__features-infocard-graphic {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.webdefend__features-infocard-graphic { 
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.webdefend__features-infocard-icon img {
+    width: 170px;
+    height: 170px;
+}
+
+.webdefend__features-infocard-title {
+    height: 100%;
+}
+
+.webdefend__features-infocard-title p {
+    font-size: 28px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-text);
+    padding: 19px 0;
+   
+}
+
+@media screen and (max-width: 1400px ) {
+   
+    .webdefend__features-graphic {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .webdefend__features-title-description p {
+        width: 100%;
+    }
+
+    .webdefend__features-graphic img {
+        padding-top: 3rem;
+    }
+
+    .webdefend__features-container {
+        flex-direction: column;
+        
+    }
+
+    .webdefend__features-flexcard {
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width: 1150px ) {
+    .webdefend__features-infocard-title p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 950px ) {
+    .features__padding {
+        padding: 3rem 2rem;
+    }
+
+    .webdefend__features-flexcard {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        row-gap: 13px;
+    }
+
+    .webdefend__features-infocard-graphic {
+        padding-bottom: 0.5rem;
+    }
+
+    .webdefend__features-infocard-title {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .webdefend__features-title p {
+        font-size: 30px;
+    }
+    .webdefend__features-text-title p{
+        font-size: 22px;
+    }
+
+    .webdefend__features-title-description p {
+        font-size: 14px;
+    }
+
+    .webdefend__features-graphic img {
+        width: 180px;
+    }
+
+    .webdefend__features-infocard-title {
+        width: 200px;
+    }
+
+    .webdefend__features-infocard-graphic img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .webdefend__features-infocard-title p {
+        font-size: 15px;
+    }
+}

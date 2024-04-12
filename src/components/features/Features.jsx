@@ -3,18 +3,15 @@ import { images } from "../../constants";
 import { data } from "../../constants";
 import "./features.css";
 
-const FeatureCard = ({feature: { imgUrl, title, description }}) => (
-    <div className="webdefend__infocard webdefend__container-padding">
-      <div className="webdefend__infocard-feature">
-        <div className="webdefend__infocard-icon">
-          <img src={imgUrl} alt="business icon" />
+const FeatureCard = ({feature: { imgUrl, title }}) => (
+    <div className="webdefend__features-infocard webdefend__features-container-padding">
+      <div className="webdefend__features-infocard-graphic">
+        <div className="webdefend__features-infocard-icon">
+          <img src={imgUrl} alt="cybersecurity statistics" />
         </div>
       </div>
-      <div className="webdefend__infocard-title">
+      <div className="webdefend__features-infocard-title">
           <p>{title}</p>
-      </div>
-      <div className="webdefend__infocard-description">
-          <p>{description}</p>
       </div>
     </div>
   );
@@ -38,7 +35,10 @@ const Features = () => {
             <div className="webdefend__features-graphic">
                 <img src={images.animatedGraphic2} alt="webdefend gif" />
             </div>
-            {data.features.map((feature) => <FeatureCard feature={feature}/>)}
+           
+        </div>
+        <div className="webdefend__features-flexcard">
+          {data.features.map((feature) => <FeatureCard feature={feature}/>)}
         </div>
           
     </div>
