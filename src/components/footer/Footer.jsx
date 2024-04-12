@@ -28,13 +28,20 @@ const Footer = () => {
             </div>
           </div>
           <div className="webdefend__footer-links_work">
-            <h1 className="webdefend__footer-headtext">Working Hours</h1>
-            <p>Monday - Friday:</p>
-            <p>9:30 am - 5pm</p>
-            <p>Saturday:</p>
-            <p>Appointment Only</p>
-            <p>Sunday:</p>
-            <p>Closed</p>
+            <div className="webdefend__footer-contact-container">
+                <img src={images.emailFooter}></img>
+                <div className="webdefend__footer-contact-text">
+                    <p>yoloswag@gmail.com</p>
+                </div>
+            </div>
+            <div className="webdefend__footer-contact-container">
+                <img src={images.telephoneFooter}></img>
+                <div className="webdefend__footer-contact-text">
+                    <p>
+                        <a href="tel:61160065506:">+61 1600 655 06</a>  
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
         

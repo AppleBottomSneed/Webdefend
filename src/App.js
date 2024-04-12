@@ -13,7 +13,6 @@ const App = () => {
       <Aboutus />
       <Features />
       <div className='colour__bg'>
-
         <Contact />
         <Footer />
       </div>

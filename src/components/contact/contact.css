@@ -99,6 +99,11 @@
     .webdefend__contact-title p {
         font-size: 30px;
     }
+
+    .webdefend__contact-container-details {
+        
+        margin: 0; 
+    }
  
 }
 

@@ -86,6 +86,19 @@
     
 }
 
+.webdefend__footer-contact-container {
+    padding-top: 1rem;
+}
+
+.webdefend__footer-contact-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.webdefend__footer-contact-text p {
+    align-content: center;
+}
+
 @media screen and (min-width: 2000px) {
     .webdefend__footer-headtext {
         font-size: 51px;
@@ -117,9 +130,15 @@
     
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .webdefend__footer-links_logo img:first-child {
-        width: 80%;
+        width: 220px;
+        height: 220px;
     }
+
+    .footer__copyright p {
+        font-size: 12px;
+    }
+    
     
 }
