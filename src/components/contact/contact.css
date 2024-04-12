@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     justify-content: center;
     height: 800px;
+    
 }
 
 .webdefend__contact-container {
@@ -63,6 +64,10 @@
     align-items: center;
     justify-content: center;
     margin: 0 7rem; 
+}
+
+.webdefend__contact-bottom-bg {
+    background-color: var(--color-lightgrey);
 }
 
 @media screen and (max-width: 1150px ) {

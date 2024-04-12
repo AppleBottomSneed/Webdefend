@@ -10,6 +10,9 @@ import featureGraphic2 from '../components/assets/stat2.png';
 import featureGraphic3 from '../components/assets/stat3.png';
 import telephoneIcon from '../components/assets/telephone.png';
 import emailIcon from '../components/assets/email.png';
+import logoFooter from '../components/assets/logofooter.png';
+import telephoneFooter from '../components/assets/telephonefooter.png';
+import emailFooter from '../components/assets/emailfooter.png';
 
 const assets = {
     logo,
@@ -24,6 +27,9 @@ const assets = {
     featureGraphic3,
     telephoneIcon,
     emailIcon,
+    logoFooter,
+    telephoneFooter,
+    emailFooter,
     
 };
 

@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <div className="webdefend__contact-banner contact__section-padding" id="contact">
      <div className="webdefend__contact-container">
-      
       <div className="webdefend__contact-container-text">
         <div className="webdefend__contact-title">
           <p>Contact Us</p>

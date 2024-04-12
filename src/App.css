@@ -14,8 +14,8 @@ a {
   text-decoration: none;
 }
 
-.gradient__bg {
-  background: var(--color-bg);
+.colour__bg {
+  background-color: var(--color-lightgrey);
 }
 
 .parrallax__bg {

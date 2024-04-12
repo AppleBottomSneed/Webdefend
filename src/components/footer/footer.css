@@ -1,0 +1,125 @@
+.footer__padding {
+    padding: 2rem 5rem;
+}
+
+.webdefend__footer {
+    /* In combination with FooterOverlay.css: webdefend__footerOverlay correctly positions background */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+    font-family: var(--font-main);
+}
+
+.webdefend__footer-links {
+    width: 100%;
+    display: flex;
+    /*Allows responsive space between divs*/
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding:  0 2rem;
+}
+
+.webdefend__footer-links_contact, 
+.webdefend__footer-links_logo,
+.webdefend__footer-links_work,
+.webdefend__footer-links-quicklinks {
+    /* Allows divs to take equal amount of space*/
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+    color: var(--color-bg);
+}
+
+.webdefend__footer-links_work, .webdefend__footer-links_contact p {
+    font-family: var(--font-main);
+}
+
+.webdefend__footer-links-quicklinks > p {
+    margin-bottom: 1rem; 
+}
+
+.webdefend__footer-links-quicklinks a:hover {
+    color: var(--color-orangetext);
+}
+
+.webdefend__footer-links_contact > p {
+    margin-bottom: 1rem;
+}
+
+.webdefend__footer-links_logo {
+    font-family: var(--font-main);
+}
+
+.webdefend__footer-links_logo img:first-child {
+    width: 270px;
+    margin-bottom: 0.75rem;
+}
+
+/*Add style to every 2nd p tag*/
+.webdefend__footer-links_work p:nth-child(2n + 1) {
+    margin-bottom: 1rem;
+}
+
+.webdefend__footer-headtext {
+    font-family: var(--font-main);
+    color: var(--color-orangetext);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.footer__copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--font-main);
+    background-color: #2c2c2c;
+    color: var(--color-bg);
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .webdefend__footer-headtext {
+        font-size: 51px;
+        line-height: 61px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    /* align center + flex direction column is optimal for mobile div positioning*/
+    .webdefend__footer-links {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .webdefend__footer-links_contact, 
+    .webdefend__footer-links_logo,
+    .webdefend__footer-links_work {
+       margin: 2rem 0;
+       width: 100%; 
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .webdefend__footer {
+        padding:  0 0 2rem 0;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .webdefend__footer-links_logo img:first-child {
+        width: 80%;
+    }
+    
+}

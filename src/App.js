@@ -1,19 +1,22 @@
 import React from 'react';
 
-import { Navbar, Header, Services, Aboutus, Features, Contact } from "./components";
+import { Navbar, Header, Services, Aboutus, Features, Contact, Footer } from "./components";
 import "./App.css";
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='gradient__bg'>
-        <Navbar />
-        <Header />
-      </div>
+      
+      <Navbar />
+      <Header />
       <Services />
       <Aboutus />
       <Features />
-      <Contact />
+      <div className='colour__bg'>
+
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }
