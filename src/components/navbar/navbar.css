@@ -59,7 +59,7 @@
 
 .webdefend__navbar-sign button,
 .webdefend__navbar-menu_container button {
-  height: 130px;
+  height: 140px;
   width: 150px;
   border: none;
   outline: none;
@@ -74,10 +74,13 @@
   background-image: url(../assets/contact.png);
   background-size: contain;
   background-color: transparent;
-  background-position: center;
+  background-position: center calc(50% + 2px);;
   background-repeat: no-repeat;
-  
- 
+}
+
+.webdefend__navbar-sign a,
+.webdefend__navbar-menu_container a {
+  padding-bottom: 10px;
 }
 
 .webdefend__navbar-menu {

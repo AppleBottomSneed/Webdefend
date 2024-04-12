@@ -20,7 +20,7 @@ const Footer = () => {
                 <a href='#services'>Services</a>
               </p>
               <p>
-                <a href='#about'>About Us</a>
+                <a href='#aboutus'>About Us</a>
               </p>
               <p>
                 <a href='#contact'>Contact Us</a>
@@ -47,7 +47,7 @@ const Footer = () => {
         
       </div>
       <div className="footer__copyright">
-          <p >© 2023 Webdefend. All Rights Reserved</p>
+          <p >© 2024 Webdefend. All Rights Reserved</p>
       </div>
     </div>
   )

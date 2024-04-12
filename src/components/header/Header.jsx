@@ -4,7 +4,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="webdefend__header section__padding" id="home">
+    <div className="webdefend__header section__padding">
       <div className="webdefend__header-content">
         <h1>
           <span className="webdefend__text-black">Unparallelled</span>

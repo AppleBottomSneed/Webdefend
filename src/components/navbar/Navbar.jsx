@@ -16,7 +16,7 @@ const Menu = () => (
       <a href="#aboutus">About Us</a>
     </p>
     <p>
-      <a href="#support">Support</a>
+      <a href="#contact">Support</a>
     </p>
   </>
 );
@@ -25,7 +25,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="webdefend__navbar">
+    <div className="webdefend__navbar" id="home">
       <div className="webdefend__navbar-links">
         <div className="webdefend__navbar-links_logo">
           <div className="webdefend__navbar-links_logo_big">
