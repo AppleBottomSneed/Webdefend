@@ -20,8 +20,8 @@
 }
 
 .webdefend__contact-graphic img {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 }
 
 .webdefend__contact-container-text {
@@ -47,7 +47,7 @@
     color: var(--color-bg);
 
     
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 2rem;
 }
 

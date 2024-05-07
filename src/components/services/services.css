@@ -197,6 +197,17 @@
     .webdefend__container-padding {
         padding: 1rem 1.5rem 3rem;
     }
+
+    .webdefend__parallax-content {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 400px ) {
+    .webdefend__services-title p {
+        font-size: 13px;
+    }
 }
 
 
