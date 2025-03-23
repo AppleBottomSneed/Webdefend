@@ -26,7 +26,7 @@ const services = [
 const features = [
     {
         imgUrl: images.featureGraphic1,
-        title: `33% of people die by THIS`,
+        title: `33% of people die by THIS Lorem ipsum 33% of people die by THIS Lorem ipsum`,
     },
     {
         imgUrl: images.featureGraphic2,
